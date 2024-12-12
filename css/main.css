@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Unbounded:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
 }
@@ -307,273 +307,322 @@ a {
   background-size: cover;
   background-position: center;
   width: 375px;
-  height: 746px;
+  height: 477px;
+  padding: 91px 30px 0;
   margin: auto;
-  background-image: url("/image/hero/focused-attractive-man-glasses-is-chainging-wheel-bicycle-busy-workshop\ 1.png");
+  background-image: url("/img/home/backround.png");
 }
 .home__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
-}
-.home__wrapper-two {
-  width: 375px;
-  height: 436px;
-
-  padding: 38px 20px 16px;
-  gap: 8px;
-
-  opacity: 0px;
-
-  color: #ffffff;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .home-title {
-  font-family: "Unbounded", sans-serif;
-  font-size: 52px;
-  font-weight: 800;
-  line-height: 60px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #ffffff;
 }
 .home-text {
-  font-family: DM Sans;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 32px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-
-  padding: 3px 0 28px;
-}
-.home-text-two {
-  font-family: DM Sans;
+  font-family: Poppins;
   font-size: 18px;
-  font-weight: 500;
-  line-height: 28px;
+  font-weight: 400;
+  line-height: 27px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #ffffff;
+  padding: 25px 0 40px;
 }
-
+.home__wrapper-two {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.home-button {
+  width: 222px;
+  height: 49px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 24px;
+  background: #ffffff;
+  border: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #153d1a;
+}
+.home-button-two {
+  background: #ffbf58;
+}
 @media screen and (min-width: 1200px) {
   .home {
-    margin: auto;
     width: 1440px;
-    height: 800px;
-
-    background-image: url("/image/hero/focused-attractive-man-glasses-is-chainging-wheel-bicycle-busy-workshop\ 1\ \(1\).png");
+    height: 780px;
+    background-image: url("/img/home/backround\ \(1\).png");
+    padding: 212px 90px 0;
   }
   .home__wrapper {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    padding-top: 0;
+    align-items: center;
   }
-  .home__wrapper-two {
-    padding: 236px 0px 16px 100px;
-    width: 677px;
-    height: 800px;
-  }
+
   .home-title {
-    font-family: "Unbounded", sans-serif;
-    font-size: 76px;
-    font-weight: 900;
-    line-height: 80px;
-    text-align: left;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
   .home-text {
-    font-family: DM Sans;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
-    padding: 20px 0 28px;
+    padding: 36px 0 56px;
   }
-  .home-text-two {
-    font-family: DM Sans;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+  .home__wrapper-two {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
   }
 }
 
 .about {
-  padding: 64px 0px;
+  padding: 50px 0px 50px 15px;
   width: 375px;
-  background: #ffffff;
+  background: #f0ede4;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #121212;
 }
 .about-title {
-  font-family: Unbounded;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 44px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-.about-text {
-  font-family: DM Sans;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: 0.1em;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  text-transform: uppercase;
 
-  padding: 32px 20px 40px;
+  color: #153d1a;
 }
-.about-list {
-  width: 335px;
+.about-text {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #153d1a;
+  padding: 15px 15px 25px 0;
 }
-.about-item {
-  overflow: hidden;
-  position: relative;
-
-  height: 378px;
-  border-radius: 4px;
-  margin: 0px 10px;
+.about-img-phone {
+  width: 360px;
+  height: 447px;
 }
-.about-img {
-  height: 378px;
-  object-fit: cover;
-  object-position: center;
-
-  margin: auto;
+.about-text-two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #474747;
+  padding-top: 15px;
+  padding-right: 15px;
 }
-
 .feature-list {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  width: 375px;
-  padding-top: 40px;
-  gap: 28px;
+  width: 345px;
+  border: 1px solid #aeaeae;
+  padding: 24px 36px 24px 36px;
+  gap: 31px;
+  border-radius: 2px;
+  margin-top: 40px;
+  margin-right: 15px;
 }
 
 .feature {
-  padding: 8px 0px 0;
-  width: 335px;
+  border-bottom: 1px solid #aeaeae;
+}
 
-  font-family: DM Sans;
-  font-size: 18px;
+.feature-number {
+  font-family: Poppins;
+  font-size: 60px;
   font-weight: 300;
-  line-height: 28px;
+  line-height: 90px;
+  text-align: center;
+  color: #153d1a;
+  position: relative;
+  margin: 0;
+}
+
+.feature-number-span {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  position: absolute;
+  top: -10px;
+  color: #153d1a;
+}
+.feature-text {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: 0.02em;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
-  border-top: 2px solid #d9d9d9;
+  color: #153d1a;
 }
-
+.feature-text-two {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #474747;
+  padding-top: 8px;
+  padding-bottom: 31px;
+}
+.about-img-desk {
+  display: none;
+}
 @media screen and (min-width: 1200px) {
   .about {
-    padding: 100px 0;
+    padding: 175px 67px 120px;
     width: 1440px;
-    background: #ffffff;
+    background: #f0ede4;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #303030;
-    gap: 40px;
   }
   .about-container-top {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: start;
-    width: 1304px;
+    justify-content: center;
+    flex-direction: row;
+    gap: 97px;
+  }
+  .about-img-desk {
+    display: flex;
   }
   .about-title {
-    font-family: Unbounded;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 56px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    letter-spacing: 0.2em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
   .about-text {
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    width: 694px;
-    padding: 4px;
-  }
-  .about-list {
-    width: 1440px;
-    padding: 0;
-  }
 
+    padding: 36px 0;
+  }
+  .about-img-phone {
+    display: none;
+  }
+  .about-text-two {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    padding-top: 0px;
+    padding-right: 0px;
+  }
   .feature-list {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 44px;
-    padding: 0;
-    width: 1172px;
+
+    width: 1296px;
+    border: 1px solid #aeaeae;
+    padding: 24px 36px 24px 36px;
+    gap: 105px;
+    border-radius: 2px;
+    margin-top: 92px;
+    margin-right: 0px;
   }
 
   .feature {
-    width: 260px;
-    height: 56px;
+    border: none;
+    border-right: 1px solid #aeaeae;
+    padding-right: 105px;
   }
-}
 
-.gallery-button-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 32px;
-}
-
-.gallery-button {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  -webkit-transition: scale 0.3s ease;
-  transition: scale 0.3s ease;
-}
-
-.gallery-button:hover {
-  scale: 120%;
-}
-
-.button-visible {
-  display: none !important;
-}
-
-.gallery-button-icon {
-  width: 48px;
-  height: 48px;
+  .feature-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #153d1a;
+  }
+  .feature-text-two {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #474747;
+    padding-top: 8px;
+    padding-bottom: 31px;
+  }
 }
 
 .gallery {
@@ -1150,61 +1199,60 @@ a {
   }
 }
 .footer {
-  background: #313131;
+  background: #e5e3d6;
+  color: #153d1a;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 36px 25px;
-  gap: 28px;
+  /* align-items: center; */
+  padding: 25px 15px;
+  gap: 40px;
 }
 .footer-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
+  align-items: start;
+
+  gap: 25px;
 }
 .footer-text {
-  font-family: DM Sans;
-  font-size: 12px;
+  font-family: Poppins;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 24px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
   text-decoration: none;
-  color: #f8f8f8;
+  color: #153d1a;
 
   text-align: center;
 }
 
 .footer-copyright {
-  font-family: DM Sans;
+  font-family: Poppins;
   font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
+  font-weight: 400;
+  line-height: 21px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
-  color: #f8f8f8;
 }
 
 @media screen and (min-width: 1200px) {
   .footer-container {
     display: flex;
-    flex-direction: row-reverse;
+
     justify-content: space-between;
     align-items: center;
 
-    padding: 37px 181px;
+    padding: 44px 72px;
     align-items: center;
-
+    gap: 100px;
     align-items: center;
   }
   .footer-wrapper {
@@ -1213,10 +1261,10 @@ a {
     justify-content: end;
     align-items: end;
     text-align: center;
-    gap: 52px;
+    gap: 442px;
   }
   .footer-text {
-    font-family: DM Sans;
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -1226,9 +1274,9 @@ a {
   }
 
   .footer-copyright {
-    font-family: DM Sans;
+    font-family: Poppins;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
     text-underline-position: from-font;
@@ -1238,84 +1286,75 @@ a {
 .policy-terms-container {
   flex-direction: column;
   align-items: start;
-  padding: 100px 20px 40px;
+  padding: 100px 15px 40px;
   background: #fffefb;
+  color: #474747;
 }
-.padding-top {
-  padding-top: 20px;
-}
+
 .policy-terms-texts {
-  font-family: DM Sans;
-  font-size: 20px;
+  font-family: Montserrat;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
-  text-align: justify;
+  line-height: 21.94px;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
-  color: #303030;
+  padding-top: 20px;
+  color: #474747;
 }
 .policy-terms-text {
-  font-family: DM Sans;
+  font-family: Poppins;
   font-size: 20px;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: justify;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
+  color: #153d1a;
   padding-top: 28px;
-  color: #303030;
 }
 .policy-terms-text-top {
-  font-family: DM Sans;
+  font-family: Poppins;
   font-size: 20px;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: justify;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
-  color: #303030;
+  color: #153d1a;
   padding-top: 28px;
 }
 .policy-terms-text-one {
-  font-family: DM Sans;
-  font-size: 20px;
+  padding-top: 20px;
+  font-family: Montserrat;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
-  text-align: justify;
+  line-height: 21.94px;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
-  color: #303030;
 }
 
 .terms-list {
-  list-style-type: disc;
-  color: #303030;
-
-  font-family: DM Sans;
-  font-size: 20px;
+  font-family: Montserrat;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
-  text-align: justify;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  line-height: 21.94px;
+  text-align: left;
 
-  padding: 28px 0 0 25px;
+  padding: 0px 0 0 25px;
 }
 .terms-lists {
   list-style-type: disc;
-  color: #303030;
+
   padding-left: 20px;
-  font-family: DM Sans;
-  font-size: 20px;
+
+  font-family: Montserrat;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
-  text-align: justify;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  line-height: 21.94px;
+  text-align: left;
 }
 .email-link {
   color: inherit;
@@ -1326,6 +1365,78 @@ a {
   .policy-terms-container {
     padding: 140px 68px 40px;
     align-items: start;
+  }
+
+  .policy-terms-texts {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    padding-top: 20px;
+    color: #474747;
+  }
+  .policy-terms-text {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    padding-top: 28px;
+  }
+  .policy-terms-text-top {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #153d1a;
+    padding-top: 28px;
+  }
+  .policy-terms-text-one {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .terms-list {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    padding: 0px 0 0 25px;
+  }
+  .terms-lists {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .email-link {
+    color: inherit;
+    text-decoration: none;
   }
 }
 
