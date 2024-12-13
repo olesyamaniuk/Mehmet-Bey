@@ -23,18 +23,20 @@
 
   <body class="back">
     <div id="cookie-popup" class="cookie-popup">
-      <p class="cookie-popup-text-two">
-        Facendo clic su "Accetta cookie", accetti la memorizzazione dei cookie
-        sul tuo dispositivo per migliorare la navigazione del sito, analizzare
-        l'utilizzo del sito e assistere nelle nostre attività di marketing.
-      </p>
-      <div class="cookie-button-container">
-        <button id="decline-cookies" class="cookie-button">
-          Cookies Settting
-        </button>
-        <button id="accept-cookies" class="cookie-button">
-          Accept All Cookies
-        </button>
+      <div class="cookie-popup-container">
+        <p class="cookie-popup-text-two">
+          Web sitemizdeki deneyiminizi geliştirmek için çerezler kullanıyoruz.
+          Bu web sitesinde gezinerek çerezlerin kullanımını kabul etmiş
+          olursunuz.
+        </p>
+        <div class="cookie-button-container">
+          <button id="accept-cookies" class="cookie-button">
+            Çerezleri kabul et
+          </button>
+          <button id="decline-cookies" class="cookie-button">
+            Çerezleri kabul et
+          </button>
+        </div>
       </div>
     </div>
 
@@ -43,59 +45,68 @@
       <nav class="navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="/#about" class="navigation__link">Chi Siamo</a>
+            <a href="/#" class="navigation-img"
+              ><img src="/img/header/logo.png" alt=""
+            /></a>
           </li>
           <li class="navigation__item">
-            <a href="/#gallery" class="navigation__link">Servizi Offerti</a>
+            <a href="/#" class="navigation__link header__icon-home-img"
+              >Anasayfa
+            </a>
           </li>
           <li class="navigation__item">
-            <a href="/#blog" class="navigation__link">Pacchetti Servizi</a>
+            <a href="/#about" class="navigation__link">Hakkımızda</a>
           </li>
           <li class="navigation__item">
-            <a href="/#reviews" class="navigation__link">Come Funziona</a>
+            <a href="/#gallery" class="navigation__link">Menümüz</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#blog" class="navigation__link">Özel Tatlarımız</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#reviews" class="navigation__link">Müşteri Yorumları</a>
           </li>
 
           <li class="navigation__item">
-            <a href="/#testimonials" class="navigation__link">Testimonianze</a>
+            <a href="/#contact " class="navigation__link">İletişim</a>
           </li>
           <li class="navigation__item">
-            <a href="/#contact " class="navigation__link"
-              >Contatti e Prenotazioni</a
+            <a class="navigation__link header__icon-home-img" href="policy.html"
+              >Gizlilik Politikası</a
             >
           </li>
           <li class="navigation__item">
             <a class="navigation__link header__icon-home-img" href="terms.html"
-              >Termini e Condizioni</a
+              >Kullanım Koşulları</a
             >
           </li>
 
           <li class="navigation__item">
             <a class="navigation__link header__icon-home-img" href="cookie.html"
-              >Politica sui Cookie</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link header__icon-home-img" href="policy.html"
-              >Politica sulla Privacy</a
+              >Çerez Politikası</a
             >
           </li>
         </ul>
 
         <div class="header__button-wrapper">
           <a href="/" class="">
-            <img href="/" class="header__icon-button" src="" alt=""
+            <img
+              href="/"
+              class="header__icon-button"
+              src="/img/header/logo.png"
+              alt=""
           /></a>
 
           <button type="button" class="header__icon-button" data-menu-button>
             <img
               class="header__icon header__icon--menu"
-              src="image/header/Frame 2.png"
+              src="img/header/menu (1).png"
               alt=""
             />
 
             <img
               class="header__icon header__icon--close close"
-              src="image/header/ep_close-bold.png"
+              src="img/header/сross.png"
               alt=""
             />
           </button>
@@ -168,7 +179,7 @@
               Günlük mutluluk taşıdığımız kahve ve tatlı severler
             </p>
           </li>
-          <li class="">
+          <li class="feature feature-two">
             <p class="feature-number">
               50<span class="feature-number-span">+</span>
             </p>
@@ -179,343 +190,165 @@
       </section>
 
       <section class="gallery" id="gallery">
-        <h2 class="gallery-title">Servizi Offerti</h2>
-        <p class="gallery-title-text">
-          Offriamo una gamma completa di servizi per biciclette, dai piccoli
-          interventi alla personalizzazione completa.
-        </p>
-        <div class="gallery__container">
-          <div class="gallery__phone">
-            <ul class="gallery__list">
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./image/gallery/image (4).png"
-                  alt="User Avatar"
-                />
-                <div class="gallery-item-text">
-                  <p class="gallery-item-title">Riparazione</p>
-                  <p class="gallery-text">
-                    "Sistemiamo ogni problema, dai freni alle trasmissioni."
-                  </p>
-                </div>
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./image/gallery/image (5).png"
-                  alt="User Avatar"
-                />
-                <div class="gallery-item-text">
-                  <p class="gallery-item-title">Manutenzione Ordinaria</p>
-                  <p class="gallery-text">
-                    Check-up completo per garantire prestazioni ottimali.
-                  </p>
-                </div>
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./image/gallery/image (6).png"
-                  alt="User Avatar"
-                />
-                <div class="gallery-item-text">
-                  <p class="gallery-item-title">Customizzazione</p>
-                  <p class="gallery-text">
-                    Progetta la tua bici dei sogni con accessori unici e
-                    modifiche su misura.
-                  </p>
-                </div>
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./image/gallery/image (7).png"
-                  alt="User Avatar"
-                />
-                <div class="gallery-item-text">
-                  <p class="gallery-item-title">Installazione di Componenti</p>
-                  <p class="gallery-text">
-                    Aggiorna la tua bici con le ultime tecnologie.
-                  </p>
-                </div>
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./image/gallery/image (8).png"
-                  alt="User Avatar"
-                />
-                <div class="gallery-item-text">
-                  <p class="gallery-item-title">Pulizia Professionale</p>
-                  <p class="gallery-text">
-                    Pulizia e lubrificazione per prolungare la vita del tuo
-                    mezzo.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="gallery-button-container">
-          <button class="gallery-button gallery__list-left">
-            <img
-              class="gallery-button-icon"
-              src="image/about/Frame 39759.png"
-              alt=""
-            />
-          </button>
-          <button class="gallery-button gallery__list-right">
-            <img
-              class="gallery-button-icon"
-              src="image/about/Frame 50.png"
-              alt=""
-            />
-          </button>
-        </div>
+        <h2 class="about-title">Menümüz</h2>
+        <p class="about-text">Taze ve Lezzetli Seçenekler</p>
+        <p class="gallery-title-text">Herkes İçin Bir Tat Var</p>
+        <button class="home-button gallery-button">Menümüzü Keşfet</button>
+
+        <ul class="gallery__list">
+          <li class="gallery__item">
+            <p class="gallery-item-title">Fırın Ürünleri</p>
+            <p class="gallery-text">
+              Ev yapımı poğaçalar, taptaze kruvasanlar ve çıtır ekmekler.
+            </p>
+          </li>
+          <li class="gallery__item gallery__item-two">
+            <p class="gallery-item-title">Tatlılar</p>
+            <p class="gallery-text">
+              Brownie, cheesecake, profiterol ve daha fazlası.
+            </p>
+          </li>
+          <li class="gallery__item gallery__item-three">
+            <p class="gallery-item-title">Kahve Çeşitleri:</p>
+            <p class="gallery-text">
+              Espresso, latte, Türk kahvesi ve soğuk kahve seçenekleri.
+            </p>
+          </li>
+          <li class="gallery__item gallery__item-four">
+            <p class="gallery-item-title">Kahve Çeşitleri</p>
+            <p class="gallery-text">Sandviçler, salatalar ve hafif yemekler.</p>
+          </li>
+        </ul>
       </section>
 
       <section class="blog" id="blog">
-        <h2 class="gallery-title">Pacchetti Servizi</h2>
+        <h2 class="about-title">Özel Tatlarımız</h2>
+        <p class="about-text">Mehmet Bey’den Özel Tatlar</p>
         <p class="gallery-title-text">
-          Scegli il pacchetto che fa per te e rendi la tua bici perfetta.
+          Her biri özel tariflerimizle hazırlanan ve damak zevkinizi şenlendiren
+          lezzetler.
         </p>
         <ul class="blog__list">
-          <li class="gallery__item blog-item">
-            <div class="blog-item">
-              <img
-                class="blog-avatar"
-                src="./image/blog/image (9).png"
-                alt="User Avatar"
-              />
-              <div class="blog-item-text">
-                <p class="gallery-item-title">Pacchetto Avanzato</p>
-                <p class="gallery-text blog-text">
-                  Sostituzione componenti, regolazione completa e test drive.
-                </p>
-              </div>
-            </div>
+          <li class="blog-item">
+            <img
+              class="blog-avatar"
+              src="./img/blog/Rectangle 509.png"
+              alt="User Avatar"
+            />
+            <p class="blog-item-title">Mehmet Bey! Özel Tarçınlı Kurabiye</p>
+            <button class="blog-button">Menümüzü Keşfet</button>
           </li>
-          <li class="gallery__item blog-item">
-            <div class="blog-item">
-              <img
-                class="blog-avatar"
-                src="./image/blog/image (10).png"
-                alt="User Avatar"
-              />
-              <div class="blog-item-text">
-                <p class="gallery-item-title">Pacchetto Custom</p>
-                <p class="gallery-text blog-text">
-                  Progettazione e installazione di componenti personalizzati.
-                </p>
-              </div>
-            </div>
+          <li class="blog-item">
+            <img
+              class="blog-avatar"
+              src="./img/blog/Rectangle 509 (1).png"
+              alt="User Avatar"
+            />
+            <p class="blog-item-title">Limonlu Cheesecake</p>
+            <button class="blog-button">Menümüzü Keşfet</button>
           </li>
-          <li class="gallery__item blog-item">
-            <div class="blog-item">
-              <img
-                class="blog-avatar"
-                src="./image/blog/image (11).png"
-                alt="User Avatar"
-              />
-              <div class="blog-item-text">
-                <p class="gallery-item-title">Pacchetto Base</p>
-                <p class="gallery-text blog-text">
-                  Controllo freni, cambio e lubrificazione catena.
-                </p>
-              </div>
-            </div>
+
+          <li class="blog-item">
+            <img
+              class="blog-avatar"
+              src="./img/blog/Rectangle 509 (2).png"
+              alt="User Avatar"
+            />
+            <p class="blog-item-title">Fırından Yeni Çıkmış Zeytinli Ekmek</p>
+            <button class="blog-button">Menümüzü Keşfet</button>
+          </li>
+          <li class="blog-item">
+            <img
+              class="blog-avatar"
+              src="./img/blog/Rectangle 509 (3).png"
+              alt="User Avatar"
+            />
+            <p class="blog-item-title">Karamelli Soğuk Kahve</p>
+            <button class="blog-button">Menümüzü Keşfet</button>
           </li>
         </ul>
-
-        <div class="gallery-button-container">
-          <button class="gallery-button blog__list-left">
-            <img
-              class="gallery-button-icon"
-              src="image/about/Frame 39759.png"
-              alt=""
-            />
-          </button>
-          <button class="gallery-button blog__list-right">
-            <img
-              class="gallery-button-icon"
-              src="image/about/Frame 50.png"
-              alt=""
-            />
-          </button>
-        </div>
       </section>
 
       <section class="reviews" id="reviews">
-        <div class="reviews-container-top">
-          <h2 class="gallery-title">Come Funziona</h2>
-          <p class="reviews-texts">Prenotare un servizio è facile e veloce.</p>
-        </div>
+        <h2 class="about-title">Müşteri Yorumları</h2>
+        <p class="about-text">Misafirlerimizin Görüşleri</p>
+
         <ul class="reviews__list">
           <li class="reviews-item">
-            <img
-              class="reviews-avatar"
-              src="./image/reviews/image (12).png"
-              alt="User Avatar"
-            />
-            <div class="">
-              <p class="reviews-item-title">Riparazione e Test</p>
-              <p class="reviews-text">
-                Il nostro team si occupa della tua bici con precisione.
-              </p>
-            </div>
+            <img class="reviews-avatar" src="./img/reviews/”.png" />
+            <p class="reviews-item-title">
+              Latte ve kruvasan favorim oldu. Çalışanlar da çok güler yüzlü.
+            </p>
+            <p class="reviews-text">Ali Demir</p>
           </li>
           <li class="reviews-item">
-            <img
-              class="reviews-avatar"
-              src="./image/reviews/image (13).png"
-              alt="User Avatar"
-            />
-            <div class="">
-              <p class="reviews-item-title">Ritiro o Consegna</p>
-              <p class="reviews-text">
-                Ritira la tua bici pronta o richiedi la consegna a domicilio.
-              </p>
-            </div>
+            <img class="reviews-avatar" src="./img/reviews/”.png" />
+            <p class="reviews-item-title">
+              Tatlı krizim olduğunda ilk durağım burası!
+            </p>
+            <p class="reviews-text">Zeynep Aksoy</p>
           </li>
           <li class="reviews-item">
-            <img
-              class="reviews-avatar"
-              src="./image/reviews/image (14).png"
-              alt="User Avatar"
-            />
-            <div class="">
-              <p class="reviews-item-title">Valutazione</p>
-              <p class="reviews-text">
-                Ricevi un preventivo dettagliato prima dell'intervento
-              </p>
-            </div>
+            <img class="reviews-avatar" src="./img/reviews/”.png" />
+            <p class="reviews-item-title">
+              Fırından yeni çıkmış poğaçaları mutlaka denemelisiniz.
+            </p>
+            <p class="reviews-text">Burak Kaya</p>
           </li>
           <li class="reviews-item">
-            <img
-              class="reviews-avatar"
-              src="./image/reviews/image (16).png"
-              alt="User Avatar"
-            />
-            <div class="">
-              <p class="reviews-item-title">Contattaci</p>
-              <p class="reviews-text">
-                Descrivi il problema o il servizio di cui hai bisogno.
-              </p>
-            </div>
+            <img class="reviews-avatar" src="./img/reviews/”.png" />
+            <p class="reviews-item-title">
+              Antalya’da daha iyisini bulamazsınız! Her şey taze ve harika.
+            </p>
+            <p class="reviews-text">Elif Çelik</p>
+          </li>
+          <li class="reviews-item">
+            <img class="reviews-avatar" src="./img/reviews/”.png" />
+            <p class="reviews-item-title">
+              Fırından yeni çıkmış poğaçaları mutlaka denemelisiniz.
+            </p>
+            <p class="reviews-text">Elif Çelik</p>
           </li>
         </ul>
-        <div class="gallery-button-container">
-          <button class="gallery-button reviews__list-left">
-            <img
-              class="gallery-button-icon"
-              src="image/about/Frame 39759.png"
-              alt=""
-            />
-          </button>
-          <button class="gallery-button reviews__list-right">
-            <img
-              class="gallery-button-icon"
-              src="image/about/Frame 50.png"
-              alt=""
-            />
-          </button>
-        </div>
       </section>
 
-      <section class="testimonials" id="testimonials">
-        <div class="">
-          <h2 class="gallery-title testimonials-title">Testimonianze</h2>
-          <p class="reviews-texts tips-text testimonials-text">
-            Scopri cosa dicono i nostri clienti.
-          </p>
-        </div>
-        <div class="testimonials-container">
-          <ul class="testimonials-list">
-            <li class="testimonials-item">
-              <img
-                class="testimonials-item-img"
-                src="/image/testimonials/image (17).png"
-                alt=""
-              />
-              <p class="testimonials-item-text">
-                "La mia bici è come nuova, grazie al team di Game Top Cool!"
-              </p>
-            </li>
-
-            <li class="testimonials-item">
-              <img
-                class="testimonials-item-img"
-                src="/image/testimonials/image (18).png"
-                alt=""
-              />
-              <p class="testimonials-item-text">
-                "Servizio impeccabile e componenti di alta qualità. Super
-                consigliato!"
-              </p>
-            </li>
-            <li class="testimonials-item">
-              <img
-                class="testimonials-item-img"
-                src="/image/testimonials/image (19).png"
-                alt=""
-              />
-              <p class="testimonials-item-text">
-                "Hanno creato la bici dei miei sogni. Non potrei essere più
-                felice."
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
       <section class="contact" id="contact">
-        <h2 class="contact-title">Contatti e Prenotazioni</h2>
-        <div class="form">
-          <div class="form-container">
-            <input type="text" placeholder="Nome" class="form-input" />
-            <input type="email" placeholder="E-mail " class="form-input" />
-            <input type="tel" placeholder="Telefono" class="form-input" />
-            <textarea
-              placeholder="Messaggio"
-              class="form-input form-input-two"
-              rows="4"
-            ></textarea>
-            <a class="form-button" href="" target="_blank">Prenota Ora</a>
-          </div>
-          <div class="contact-img-container">
-            <img
-              class="contact-img-phone"
-              src="/image/contact/freepik_edit_Candid-image-photography-natural-textures-highly-r (16) 1.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
-      <section>
-        <ul class="contact-adress-container">
-          <li class="contact-adress">
-            <img src="/image/contact/Frame 39786.png" alt="" />
-            <p class="contact-img-container-text">
-              Contrada Olimpia 229 Piano 6 San Morgana, 59502 Pisa, Italia
-            </p>
-          </li>
-          <li class="contact-adress">
-            <img src="/image/contact/Frame 39786 (1).png" alt="" />
-            <p class="contact-img-container-text">+54 398 70271679</p>
-          </li>
-          <li class="contact-adress">
-            <img src="/image/contact/Frame 39786 (2).png" alt="" />
-
-            <p class="contact-img-container-text">
+        <img class="contact-img" src="/img/contact/img contacts.png" alt="" />
+        <div class="contact-adress-container">
+          <p class="contact-title">Mehmet Bey! ile İletişime Geçin</p>
+          <p class="contact-title-text">Lezzet Dolu Anlar İçin Bize Ulaşın</p>
+          <ul class="contact-adress-list">
+            <li class="contact-adress">
+              <img src="/img/contact/Pin - 2.png" alt="" />
               <a
-                href="mailto:info@gametopcool.com"
+                class="contact-img-container-text"
+                href="https://www.google.com/maps?q=Antalya+Merkez,+Türkiye"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Antalya Merkez, Türkiye
+              </a>
+            </li>
+            <li class="contact-adress">
+              <img src="/img/contact/Phone.png" alt="" />
+
+              <a class="contact-img-container-text" href="tel:+5439870271679"
+                >+90 242 555 00 99</a
+              >
+            </li>
+            <li class="contact-adress">
+              <img src="/img/contact/Mail.png" alt="" />
+
+              <a
+                href="mailto:proadventurepath@ info.com"
                 class="contact-img-container-text"
               >
-                info@gametopcool.com</a
+                proadventurepath@ info.com</a
               >
-            </p>
-          </li>
-        </ul>
+            </li>
+          </ul>
+          <button class="contact-button">Bize Ulaşın</button>
+        </div>
       </section>
     </main>
 
